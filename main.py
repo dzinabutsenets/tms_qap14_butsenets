@@ -1,1 +1,1 @@
-print ("dzina?")
+print ("dzina name?")
