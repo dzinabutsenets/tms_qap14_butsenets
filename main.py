@@ -1,3 +1,34 @@
+#  HOMEWORK3
+#  1.2 Определить переменные всех типов и выведете их на экран
+print(type(int(111)))
+print(type(float(0.452)))
+print(type(str("RIP")))
+print(type(list([90, 56, "street"])))
+c = {"apple": 1, "orange": 2}
+print(type(dict(c)))
+b = {"how", "know"}
+print(type(set(b)))
+print(type(tuple("111")))
+a = True
+print(type(bool(a)))
+#  1.3 Найти значение выражений
+x1 = (17/(2*3))+2
+x2 = 2+(17/(2*3))
+x3 = 19%4+(15/(2*3))
+x4 = (15+6)-(10*4)
+x5 = (17/2)%(2*(3**3))
+print(x1, x2, x3, x4, x5)
+x6 = 17/2*3+2
+print(x6)
+#  1.4 Создать три переменные, содержащие возраст трех ближайших соседей, найти сумму и вывести ее на экран
+# Создать еще одну переменную равную среднему арифметическому возрасту, и вывести это значение на экран
+var1 = 90
+var2 = 91
+var3 = 89
+print(var1 + var2 + var3)
+var4 = (var1 + var2 + var3)/3
+print(var4)
+
 #1
 a = int(-1.6)
 print(a)
@@ -43,6 +74,3 @@ if str1 in str2:
 x = "My name is Agent Smith"
 print(x[1]) #y
 print(x[3:16:3]) #nesgt
-
-#10
-
