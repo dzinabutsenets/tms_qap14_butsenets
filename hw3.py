@@ -1,4 +1,4 @@
-#  HOMEWORK3
+#  HOMEWORK 3 (added)
 #  1.2 Определить переменные всех типов и выведете их на экран
 print(type(int(111)))
 print(type(float(0.452)))
@@ -74,3 +74,4 @@ if str1 in str2:
 x = "My name is Agent Smith"
 print(x[1]) #y
 print(x[3:16:3]) #nesgt
+
